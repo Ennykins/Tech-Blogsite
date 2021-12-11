@@ -364,8 +364,21 @@ body{
 
 .text {
   position: relative;
-  right: 15em;
-  top: 4em;
+  right: 240px;
+  top: 3.3em;
+  font-size: 20px;
+}
+
+.ireti_text {
+  position: relative;
+  right: 230px;
+  top: 1.5em;
+}
+
+.ada_text {
+  position: relative;
+  right: 230px;
+  top: 1em;
 }
 
 .headshot_2 {
@@ -521,6 +534,7 @@ form p{
 .navbar_2{
   position: relative;
   top: 56em;
+  color: #7c1fbf;
   background-color: #7c1fbf;
   /* padding-bottom: -5em; */
 }
@@ -559,7 +573,7 @@ form p{
     padding: 10px;
     border-radius: 2px;
     border-style: none;
-    background-color: #7c1fbf;
+    background-color:#7c1fbf;
     color: white;
     margin-left: 2.5em;
     font-size: 18px;
@@ -588,4 +602,38 @@ form p{
     margin-right: 4em;
   }
 
+  
+  form select{
+    margin-left: 3.7em;
+    padding: 1.2em;
+    border-radius: 5px;
+    border-style: none;
+    width: 24.5em;
+    margin-bottom: 2em;
+    font-weight: lighter;
+  }
+
+  .label_2{
+    font-size: 18px;
+    font-weight: bolder;
+    margin-left: 3em;
+    
+  }
+
+  form option{
+    background-color:#636164 ;
+  }
+
+  /* .buy_sell_2 {
+    border-style: none;
+    background-color:white;
+    padding: 5px;
+    width: 8em;
+    font-size: 10px;
+  }
+  
+  .buy_sell_2 a{
+    color: #7c1fbf;
+    font-size: 10px;
+  } */
   

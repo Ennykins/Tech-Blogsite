@@ -14,7 +14,7 @@ const Navbar = () => {
 
 <div className="links">
  
-  <a href="/instant">Instant Buy/Sell</a>
+  <a className="buy_sell buy_sell_2" href="/instant">Instant Buy/Sell</a>
 
   <a href="/learn">Learn</a>
 

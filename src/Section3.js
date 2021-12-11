@@ -38,7 +38,7 @@ const Section3 = () => {
   </div>
 
 
-  <div className="text">
+  <div className="text ireti_text">
     <h3>Ireti</h3>
 
     <p>Nigeria</p>
@@ -109,7 +109,7 @@ const Section3 = () => {
   </div>
 
 
-  <div className="text">
+  <div className="text ada_text">
     <h3>Ada</h3>
 
     <p>Nigeria</p>

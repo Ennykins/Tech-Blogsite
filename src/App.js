@@ -6,6 +6,7 @@ import Footer from "./Footer";
 import Individual from "./links/Individual";
 import Business from "./links/Business";
 import Login from "./links/Login";
+import Instant from "./links/Instant";
 
 const App = () => {
   return ( 
@@ -20,6 +21,7 @@ const App = () => {
       <Individual />
       <Business />
       <Login />
+      <Instant />
     </div>
    );
 }

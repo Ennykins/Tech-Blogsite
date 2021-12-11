@@ -1,15 +1,72 @@
-// const About = () => {
-//   return (
-//     <div>
-//       <h1>About Us</h1>
+import Navbar from "../Navbar";
 
-//       <p>
-//         Here is how.... Lorem ipsum dolor sit amet consectetur adipisicing elit.
-//         Numquam aspernatur dolorem amet illum. Quam quaerat aliquid fugiat
-//         voluptatum consequuntur dicta!
-//       </p>
-//     </div>
-//   );
-// };
+const Instant= () => {
+  return (
 
-// export default About;
+    
+    <div>
+<div className="navbar_2 navbar_3">
+<Navbar />
+
+</div>
+      <div className="welcome_page instant">
+
+      <h2>Buy/Sell Instantly</h2>
+
+<div className="status">
+  <button className="individual">
+    <a href="/indidivual">Buy</a>
+  </button>
+
+  <button className="business">
+    <a href="/business">Sell</a>
+  </button>
+</div>
+
+<form action="" className="form">
+
+
+<label className="label_2" for="coin">Coin to Buy</label><br /> <br />
+
+        <select name="coin" id="coin">
+          <option>Bitcoin(BTC)</option>
+          <option>Tether(USDT)</option>
+          <option>Ethereum(ETH)</option>
+          <option>Litecoin(LTC)</option>
+          <option>Ripple(XRP)</option>
+          <option>Naira(NGN)</option>        
+        </select>
+        <br />
+        <br />
+
+        <label className="label_2" for="states">Currency</label><br /> <br />
+        
+        <select name="currency" id="currency">
+        <option>Naira(NGN)</option>
+          <option>Dollar(USD)</option>
+          <option>Euro(EURO)</option>
+          <option>Pounds(GBP)</option>
+        </select>
+        <br />
+        <br />
+
+        <label className="label_2" for="states">Amount</label><br /> <br />
+        
+        <select name="currency" id="currency">
+        <option>(NGN) 3,000,000.00</option>
+        </select>
+        <br />
+        
+</form>
+
+<div className="signup">
+<button>Continue</button>    
+
+</div>
+      </div>
+      
+    </div>
+  );
+};
+
+export default Instant;
