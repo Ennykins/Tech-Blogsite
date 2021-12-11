@@ -1,47 +1,591 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600&display=swap");
+
 * {
   margin: 0;
-  font-family: "Quicksand";
-  color: #333;
+  padding: 0;
+  max-width: 100%;
+  font-family: "nunito sans", sans-serif;
+  max-width: 425px;
 }
-.navbar {
-  padding: 20px;
-  display: flex;
-  align-items: center;
-  max-width: 600px;
-  margin: 0 auto;
-  border-bottom: 1px solid #f2f2f2;
+
+html, body{
+  overflow-x: hidden;
 }
-.navbar h1 {
-  color: #f1356d;
+
+body{
+  position: relative;
 }
-.navbar .links {
-  margin-left: auto;
-}
-.navbar a {
-  margin-left: 16px;
-  text-decoration: none;
-  padding: 6px;
-}
-.navbar a:hover {
-  color: #f1356d;
-}
+
 .content {
-  max-width: 600px;
-  margin: 40px auto;
-  padding: 20px;
+  background-color: #7c1fbf;
+  max-width: 100%;
+  height: 25em;
+  margin: auto;
+  color: white;
 }
 
-.article-preview {
-  padding: 10px 16px;
-  margin: 20px 0;
-  border-bottom: 1px solid #fafafa;
+/* Navbar */
+.trade_logo img {
+  width: 70px;
+  margin-left: 30px;
+  padding-top: 9px;
 }
-.article-preview:hover {
-  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+
+.navbar a {
+  font-size: 8px;
+  text-decoration: none;
+  padding: 8px;
+  color: white;
 }
-.article-preview h2 {
+
+.login {
+  border-style: none;
+  background-color:#7c1fbf ;
+  padding: 6px;
+  width: 6em;
+  font-size: 10px;
+  margin: 5px;
+}
+
+.start {
+  border-style: none;
+  background-color:white;
+  padding: 5px;
+  width: 8em;
+  font-size: 10px;
+}
+
+.start a{
+  color: #7c1fbf;
+  font-size: 10px;
+}
+
+.links {
+  position: relative;
+  bottom: 30px;
+  left: 150px;
+}
+
+/* Home */
+
+.buy h1 {
+  padding-top: 30px;
+  width: 400px;
   font-size: 20px;
-  color: #f1356d;
-  margin-bottom: 8px;
+  margin-left: 30px;
 }
 
+.crypto {
+  padding-top: 20px;
+  width: 210px;
+  font-size: 8px;
+  margin-left: 30px;
+}
+
+.btn {
+  background-color: white;
+  color: #7c1fbf;
+  border: none;
+  margin-top: 20px;
+  width: 150px;
+  padding: 10px 22px 10px 22px;
+  font-size: 15px;
+  margin-left: 30px;
+}
+
+
+
+/* App store */
+
+.store {
+  position: relative;
+  display: flex;
+  top: 10px;
+  margin-left: 30px;
+  justify-content: space-between;
+}
+
+.android {
+  position: relative;
+  left: -80px;
+}
+
+
+
+
+
+
+/* section1 */
+
+.sec_1 {
+  position: relative;
+  background-color: #f2f2f2;
+  height: 205em;
+  color: black;
+}
+
+.why h2 {
+  color: black;
+  font-size: 20px;
+  margin-left: 30px;
+  padding-top: 25px;
+
+  
+}
+
+.grid {
+  display: block;
+  grid-template-columns: repeat(3, 1fr);
+  /* grid-gap: 10px; */
+}
+
+.mode_of_payment {
+  position: relative;
+  top: 10px;
+  /* width: 437px; */
+  background-color: white;
+  padding-bottom: 60px;
+}
+
+.mode {
+  margin-bottom: 50px;
+}
+
+.investment {
+  height: 20em;
+}
+
+.mode_of_payment img {
+  max-width: 15em;
+  margin-left: 80px;
+  margin-top: 50px;
+}
+
+.mode_of_payment h2 {
+  color: black;
+  /* width: 300px; */
+  text-align: center;
+  /* margin-left: 80px; */
+  margin-top: 40px;
+}
+
+.mode_of_payment p {
+  color: black;
+  text-align: center;
+  font-size: 12px;
+  padding-top: 25px;
+  line-height: 20px;
+}
+
+.btn2 {
+  color: black;
+  font-weight: lighter;
+  border: 1.5px solid black;
+  margin-top: 20px;
+  width: 200px;
+  padding: 15px 20px 15px 20px;
+  font-size: 20px;
+  margin-left: 100px;
+}
+
+.mode_of_payment2 {
+  position: relative;
+  top: 50px;
+  /* width: 437px; */
+  padding-bottom: 60px;
+  margin-left: 20px;
+}
+
+.mode_of_payment2 p {
+  color: black;
+  text-align: center;
+  font-size: 12px;
+  padding-top: 35px;
+  line-height: 20px;
+}
+
+.mode_of_payment2 img {
+  max-width: 70%;
+  margin-left: 30px;
+  margin-top: 5em;
+  align-items: center;
+}
+
+.steps {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 10em;
+  font-weight: bolder;
+}
+
+
+
+
+
+
+/* SECTION 2 */
+
+
+.sec_2 {
+  position: relative;
+  color: black;
+  top: 100px;
+  margin-bottom: -5px;
+}
+
+.sec_2 p {
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.sec_2 h2 {
+  text-align: center;
+  margin-top: 2em;
+}
+
+.get {
+  background-color: #7c1fbf;
+  color: white;
+  margin-top: 40px;
+  margin-left: 140px;
+}
+
+.store_2 {
+  display: flex;
+  margin-top: 50px;
+}
+
+.andro {
+  width: 155px;
+  display: flex;
+  color: black;
+  border: 1px solid black;
+  background-color: white;
+}
+
+.first {
+  position: relative;
+  left: 50px;
+}
+
+.second {
+  position: relative;
+  margin-left: 35px;
+}
+
+.andro img {
+  margin-top: 20px;
+  padding-left: -30px;
+}
+
+.low {
+  margin-top: 4px;
+  padding-top: 8px;
+}
+
+.big {
+  font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+/* SECTION 3 */
+
+.sec_3 {
+  background-color: #f2f2f2;
+  height: 115em;
+  margin: auto;
+  max-width: 100%;
+  position: relative;
+  top: 200px;
+  /* top: 30px; */
+}
+
+.sec_3 h2 {
+  font-size: 30px;
+  text-align: center;
+  position: relative;
+  top: 4em;
+  color: black;
+  font-weight: bolder;
+}
+
+.sec_3 img {
+  position: relative;
+  top: 250px;
+}
+
+.colon {
+  position: relative;
+  bottom: 11em;
+  left: 20px;
+}
+
+
+.union h4 {
+  position: relative;
+  top: 2.7em;
+  color: white;
+  /* left: 72px; */
+  line-height: 30px;
+  font-weight: lighter;
+  text-align: center;
+  /* width: 280px; */
+}
+
+.headshot img {
+  width: 25%;
+  border-radius: 50%;
+  position: relative;
+  top: 0.8em;
+  left: 18px;
+}
+
+.bayo img{
+  width: 25%;
+  border-radius: 50%;
+  position: relative;
+  top: 3em;
+  left: 18px
+}
+
+.headshot {
+  display: flex;
+  color: black;
+  margin-top: 9em;
+}
+
+.text {
+  position: relative;
+  right: 15em;
+  top: 4em;
+}
+
+.headshot_2 {
+  margin-top: -5em;
+  max-width: 100%;
+}
+
+.headshot_3 {
+  margin-top: -5em;
+}
+
+
+
+
+/* SECTION 4 / FOOTER */
+
+.sec_4 {
+  color: black;
+  background-color: white;
+  height: 50em;
+  margin: auto;
+  position: relative;
+  top: 300px;
+  max-width: 100%;
+}
+
+.footer {
+  display: block;
+  max-width: 100%;
+}
+
+.social {
+  line-height: 45px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+/* COPYRIGHT */
+
+.copyright {
+  position: relative;
+  max-width: 100%;
+  background-color: #f2f2f2;
+  height: 4em;
+  margin: auto;
+  top: 50em;
+}
+
+.copyright img {
+  margin-top: 1.5em;
+}
+
+
+/* WELCOME_PAGE */
+
+.welcome_page{
+  background-color: #f2f2f2;
+  height: 50em;
+  margin: auto;
+  max-width: 100%;
+  position: relative;
+  top: 55em;
+}
+
+.welcome_page h2{
+  text-align: center;
+  font-size: 35px;
+  font-weight: lighter;
+  padding-top: 1.5em;
+}
+
+.status{
+  margin-left:3.2em;
+  padding-top:1.8em;
+  
+}
+.status button{
+  width: 12em;
+  padding: 5px;
+  border-radius: 5px;
+  border-style: none;
+}
+
+.status a{
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+}
+
+.individual{
+  background-color: #ded9d9;
+}
+
+.individual_2{
+  background-color: white;
+}
+
+.business{
+  background-color: white;
+}
+
+.business_2{
+  background-color: #ded9d9;
+}
+
+form{
+  margin-top: 2em;
+}
+
+form input{
+  margin-left: 3.7em;
+  padding: 1.2em;
+  border-radius: 5px;
+  border-style: none;
+  width: 21.5em;
+  margin-bottom: 2em;
+  font-weight: lighter;
+}
+
+form p a{
+  color: #7c1fbf;
+  text-decoration: none;
+}
+
+form p{
+  text-align: center;
+  line-height: 25px;
+  margin-top: 15px;
+}
+
+.signup button{
+  width: 18em;
+  padding: 10px;
+  border-radius: 2px;
+  border-style: none;
+  background-color: #7c1fbf;
+  color: white;
+  margin-left: 2.5em;
+  font-size: 18px;
+  margin-top: 2.2em;
+}
+
+.signup p{
+  text-align: center;
+  margin-top: 20px;
+}
+
+.signup p a{
+  color: #7c1fbf;
+  text-decoration: none;
+}
+
+.navbar_2{
+  position: relative;
+  top: 56em;
+  background-color: #7c1fbf;
+  /* padding-bottom: -5em; */
+}
+
+
+
+/* LOGIN */
+
+.loginn{
+  background-color: #f2f2f2;
+  margin: auto;
+  max-width: 100%;
+  position: relative;
+  bottom: -55em;
+  padding-bottom: 10em;
+}
+
+.loginn h2{
+  text-align: center;
+  font-size: 35px;
+  font-weight: lighter;
+  padding-top: 1.5em;
+}
+
+.form_2 input{
+  margin-left: 3em;
+  padding: 1.2em;
+  border-radius: 5px;
+  border-style: none;
+  width: 22.5em;
+  margin-bottom: 2em;
+  font-weight: lighter;
+}
+.log button{
+    width: 18em;
+    padding: 10px;
+    border-radius: 2px;
+    border-style: none;
+    background-color: #7c1fbf;
+    color: white;
+    margin-left: 2.5em;
+    font-size: 18px;
+    margin-top: 4em;
+  }
+
+  .log p{
+    text-align: center;
+  margin-top: 30px;
+  }
+  .log p a{
+    color: #7c1fbf;
+    text-decoration: none;
+  }
+
+  .pass{
+    display: flex;
+    justify-content: space-between;
+  }
+  .pass p {
+    margin-left: 2.9em;
+    font-size: 14px;
+  }
+
+  .remember{
+    margin-right: 4em;
+  }
+
+  

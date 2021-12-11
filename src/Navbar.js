@@ -1,16 +1,36 @@
 import React from "react";
+import TradExpress from "./img/TradExpress.svg"
+// import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <nav className="navbar">
-      <h1>The Tech Blog</h1>
-      <div className="links">
-        <a href="/">Home</a>
-        <a href="/about">About Us</a>
-        <a href="/contact">Contact</a>
-        <a href="/create">New Blog</a>
+
+    <div>
+      <div className="trade_logo">
+      <img src= {TradExpress} alt=""/>
       </div>
-    </nav>
+
+      <nav className="navbar">
+
+<div className="links">
+ 
+  <a href="/instant">Instant Buy/Sell</a>
+
+  <a href="/learn">Learn</a>
+
+  <button className="login login_button">
+    <a href="/login">Login</a>
+  </button>
+
+  <button className="start">
+  <a href="/Start">Get Started</a>
+  </button>
+  
+</div>
+</nav>
+    </div>
+
+   
   );
 };
 
