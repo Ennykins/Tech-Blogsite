@@ -92,12 +92,12 @@ const Section3 = () => {
 
 <div className="union">
 
-<div className="colon">
+<div className="colon ada">
   <img src= {colon} alt=""/>
 </div>
 
 <div>
-  <h4>Easy to fund and withdraw coins or cash <br /> on their platform.<br /> I will definitely trade with them again.</h4>
+  <h4>Easy to fund  and withdraw coins <br /> or cash on their platform.<br /> I will definitely trade with them again.</h4>
 </div>
 
 

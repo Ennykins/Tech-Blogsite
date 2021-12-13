@@ -317,21 +317,28 @@ body{
 .sec_3 img {
   position: relative;
   top: 250px;
+  max-width: 70%;
+  margin-left: 4em;
 }
 
 .colon {
   position: relative;
-  bottom: 11em;
-  left: 20px;
+  bottom: 9.5em;
+  left: 3px;
+}
+
+.colon img{
+  max-width: 7%;
 }
 
 
 .union h4 {
   position: relative;
-  top: 2.7em;
+  top: 6em;
+  font-size: 13px;
   color: white;
   /* left: 72px; */
-  line-height: 30px;
+  line-height: 25px;
   font-weight: lighter;
   text-align: center;
   /* width: 280px; */
@@ -368,15 +375,27 @@ body{
 
 .ireti_text {
   position: relative;
-  right: 230px;
+  right: 9em;
   top: 1.5em;
 }
 
 .ada_text {
   position: relative;
-  right: 230px;
+  right: 9em;
   top: 1em;
 }
+
+/* .ada h4{
+  position: relative;
+  top: 6em;
+  padding-left: 2em;
+  font-size: 13px;
+  color: white;
+  left: 72px;
+  line-height: 25px;
+  font-weight: lighter;
+  text-align: center;
+} */
 
 .headshot_2 {
   margin-top: -5em;
