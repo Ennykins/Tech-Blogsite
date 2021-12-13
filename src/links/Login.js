@@ -32,8 +32,8 @@ const Login= () => {
 </form>
 
 <div className="log">
-<button>Log In</button>
-<p>New Users? <Link to="/login">Click here</Link>
+<Link to="/individual"><button>Log In</button></Link>
+<p>New Users? <Link to="/individual">Click here</Link>
 </p>
 </div>
       </div>

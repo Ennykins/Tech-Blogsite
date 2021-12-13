@@ -26,22 +26,15 @@ const Individual= () => {
 
 <form action="" className="form">
 
-  <label for="Username"></label>
   <input type="text" placeholder="Username"></input> <br />
 
-  <label for="Fullname"></label>
+
   <input type="text" placeholder="Full Name"></input> <br />
 
-
-  <label for="Email"></label>
   <input type="Email" placeholder="Email"></input> <br />
 
-
-  <label for="Phone Number"></label>
   <input type="number" placeholder="Phone Number"></input> <br />
 
-
-<label for="Referral code"></label>
 <input type="number" placeholder="Referral Code (optional)"></input> <br />
 
 <p>By clicking the Sign Up button below, you agree to TradExpress <a href="/">terms and conditions</a></p>
