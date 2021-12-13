@@ -1,4 +1,5 @@
 import Navbar from "../Navbar";
+import { Link } from "react-router-dom";
 
 const Login= () => {
   return (
@@ -24,15 +25,15 @@ const Login= () => {
 <div className="pass">
 
     
-    <p><a href="/">Forgot Password?</a></p>
+    <p><Link to="/pass">Forgot Password?</Link></p>
 
-        <p className="remember"><a href="/pass">Remember Password?</a></p>
+        <p className="remember"><Link to="/pass">Remember Password?</Link></p>
 </div>
 </form>
 
 <div className="log">
 <button>Log In</button>
-<p>New Users? <a href="/login">Click here</a>
+<p>New Users? <Link to="/login">Click here</Link>
 </p>
 </div>
       </div>

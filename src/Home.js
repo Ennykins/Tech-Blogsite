@@ -3,29 +3,34 @@
 // import ArticlesLists from "../ArticlesLists";
 
 import Navbar from "./Navbar";
+import Section1 from "./Section1";
+import Section2 from "./Section2";
+import Section3 from "./Section3";
+import Footer from "./Footer";
 import androidd from "./img/androidd.svg"
 import ioss from "./img/ioss.svg"
+import { Link } from "react-router-dom";
 
 
 const Home = () => {
-  return (
-    <div>
+  return ( 
 
-      <Navbar />
+    <>
+<Navbar />
 
-      <div className="buy">
+<div className="buy">
 
-        <h1> Buy, sell and manage your <br />
-          Crypto on TradExpress.</h1>
-      </div>
+  <h1> Buy, sell and manage your <br />
+    Crypto on TradExpress.</h1>
+</div>
 
-      <p className="crypto">Early Trade Cryptocurrencies like BTC,USDT,ETH,LTC & XRP
-       with NGN.</p>
+<p className="crypto">Early Trade Cryptocurrencies like BTC,USDT,ETH,LTC & XRP
+ with NGN.</p>
 
-      <div>
-      <button className="btn">Get Started</button>
-      </div>
-      
+<div>
+<Link to="/individual"><button className="btn">Get Started</button></Link>
+</div>
+
 <div className="store">
 <div>
 <img src= {ioss} alt=""/>
@@ -33,21 +38,25 @@ const Home = () => {
 
 <div className="android">
 
-    <div>
-      <img src= {androidd} alt=""/>
-    </div>
+<div>
+<img src= {androidd} alt=""/>
+</div>
+
+</div>
 
 </div>
 
 
-</div>
+          <Section1 />
+          <Section2 />
+          <Section3 />
+          <Footer />
+    </>
 
-</div>
-  );
-};
-
+   );
+}
+ 
 export default Home;
-
 
 
 

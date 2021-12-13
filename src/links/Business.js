@@ -1,4 +1,5 @@
 import Navbar from "../Navbar";
+import { Link } from "react-router-dom";
 
 const Business= () => {
   return (
@@ -15,32 +16,26 @@ const Business= () => {
 
 <div className="status">
   <button className="individual individual_2">
-    <a href="/indidivual">Individual</a>
+
+    <Link to="/individual">Individual</Link>
+
   </button>
 
   <button className="business business_2">
-    <a href="/business">Business</a>
+    <Link to="/business">Business</Link>
   </button>
 </div>
 
 <form action="" className="form">
 
-  <label for="Username"></label>
   <input type="text" placeholder="Username"></input> <br />
 
-  <label for="Fullname"></label>
-  <input type="text" placeholder="Full Name"></input> <br />
+  <input type="text" placeholder="Business Name"></input> <br />
 
-
-  <label for="Email"></label>
   <input type="Email" placeholder="Email"></input> <br />
 
-
-  <label for="Phone Number"></label>
   <input type="number" placeholder="Phone Number"></input> <br />
 
-
-<label for="Referral code"></label>
 <input type="number" placeholder="Referral Code (optional)"></input> <br />
 
 <p>By clicking the Sign Up button below, you agree to TradExpress <a href="/">terms and conditions</a></p>

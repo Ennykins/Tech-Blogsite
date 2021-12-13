@@ -1,28 +1,39 @@
 import Home from "./Home";
-import Section1 from "./Section1";
-import Section2 from "./Section2";
-import Section3 from "./Section3";
-import Footer from "./Footer";
 import Individual from "./links/Individual";
 import Business from "./links/Business";
 import Login from "./links/Login";
 import Instant from "./links/Instant";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+
 
 const App = () => {
   return ( 
-    <div>
-      <div className="content">
+    <Router>
+      <Switch>
+        <Route exact path="/">
+        <div className="content">
         <Home />
       </div>
-      <Section1 />
-      <Section2 />
-      <Section3 />
-      <Footer />
+        </Route>
+
+      <Route path="/individual">
       <Individual />
+      </Route>
+
+      <Route path="/business">
       <Business />
+      </Route>
+      
+      <Route path="/login">
       <Login />
+      </Route>
+
+      <Route path="/instant">
       <Instant />
-    </div>
+      </Route>
+
+      </Switch>
+    </Router>
    );
 }
  

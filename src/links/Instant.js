@@ -1,4 +1,5 @@
 import Navbar from "../Navbar";
+import { Link } from "react-router-dom";
 
 const Instant= () => {
   return (
@@ -6,6 +7,7 @@ const Instant= () => {
     
     <div>
 <div className="navbar_2 navbar_3">
+
 <Navbar />
 
 </div>
@@ -15,11 +17,11 @@ const Instant= () => {
 
 <div className="status">
   <button className="individual">
-    <a href="/indidivual">Buy</a>
+  <Link to="/">Buy</Link>
   </button>
 
   <button className="business">
-    <a href="/business">Sell</a>
+  <Link to="/">Sell</Link>
   </button>
 </div>
 
