@@ -1,18 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600&display=swap");
 
- * {
+* {
   margin: 0;
   padding: 0;
-  max-width: 100%;
+  /* max-width: 100%; */
   font-family: "nunito sans", sans-serif;
   max-width: 425px;
 }
 
-html, body{
+html,
+body {
   overflow-x: hidden;
 }
 
-body{
+body {
   position: relative;
 }
 
@@ -41,7 +42,7 @@ body{
 
 .login {
   border-style: none;
-  background-color:#7c1fbf ;
+  background-color: #7c1fbf;
   padding: 6px;
   width: 6em;
   font-size: 10px;
@@ -50,13 +51,13 @@ body{
 
 .start {
   border-style: none;
-  background-color:white;
+  background-color: white;
   padding: 5px;
   width: 8em;
   font-size: 10px;
 }
 
-.start a{
+.start a {
   color: #7c1fbf;
   font-size: 10px;
 }
@@ -94,8 +95,6 @@ body{
   margin-left: 30px;
 }
 
-
-
 /* App store */
 
 .store {
@@ -110,11 +109,6 @@ body{
   position: relative;
   left: -80px;
 }
-
-
-
-
-
 
 /* section1 */
 
@@ -131,8 +125,6 @@ body{
   font-size: 20px;
   margin-left: 30px;
   padding-top: 25px;
-
-  
 }
 
 .grid {
@@ -220,9 +212,7 @@ body{
   font-weight: bolder;
 }
 
-
 /* SECTION 2 */
-
 
 .sec_2 {
   position: relative;
@@ -285,15 +275,6 @@ body{
   font-size: 20px;
 }
 
-
-
-
-
-
-
-
-
-
 /* SECTION 3 */
 
 .sec_3 {
@@ -327,10 +308,9 @@ body{
   left: 3px;
 }
 
-.colon img{
+.colon img {
   max-width: 7%;
 }
-
 
 .union h4 {
   position: relative;
@@ -352,12 +332,12 @@ body{
   left: 18px;
 }
 
-.bayo img{
+.bayo img {
   width: 25%;
   border-radius: 50%;
   position: relative;
   top: 3em;
-  left: 18px
+  left: 18px;
 }
 
 .headshot {
@@ -406,9 +386,6 @@ body{
   margin-top: -5em;
 }
 
-
-
-
 /* SECTION 4 / FOOTER */
 
 .sec_4 {
@@ -447,10 +424,9 @@ body{
   margin-top: 1.5em;
 }
 
-
 /* WELCOME_PAGE */
 
-.welcome_page{
+.welcome_page {
   background-color: #f2f2f2;
   height: 50em;
   margin: auto;
@@ -458,52 +434,51 @@ body{
   position: relative;
 }
 
-.welcome_page h2{
+.welcome_page h2 {
   text-align: center;
   font-size: 35px;
   font-weight: lighter;
   padding-top: 1.5em;
 }
 
-.status{
-  margin-left:3.2em;
-  padding-top:1.8em;
-  
+.status {
+  margin-left: 3.2em;
+  padding-top: 1.8em;
 }
-.status button{
+.status button {
   width: 12em;
   padding: 5px;
   border-radius: 5px;
   border-style: none;
 }
 
-.status a{
+.status a {
   text-decoration: none;
   color: black;
   font-size: 16px;
 }
 
-.individual{
+.individual {
   background-color: #ded9d9;
 }
 
-.individual_2{
+.individual_2 {
   background-color: white;
 }
 
-.business{
+.business {
   background-color: white;
 }
 
-.business_2{
+.business_2 {
   background-color: #ded9d9;
 }
 
-form{
+form {
   margin-top: 2em;
 }
 
-form input{
+form input {
   margin-left: 3.7em;
   padding: 1.2em;
   border-radius: 5px;
@@ -513,51 +488,49 @@ form input{
   font-weight: lighter;
 }
 
-form p a{
+form p a {
   color: #7c1fbf;
   text-decoration: none;
 }
 
-form p{
+form p {
   text-align: center;
   line-height: 25px;
   margin-top: 15px;
 }
 
-.signup button{
+.signup button {
   width: 10em;
   padding: 10px;
   border-radius: 2px;
   border-style: none;
   background-color: #7c1fbf;
   color: white;
-  margin-left:6em;
+  margin-left: 6em;
   font-size: 18px;
   margin-top: 2.2em;
 }
 
-.signup p{
+.signup p {
   text-align: center;
   margin-top: 20px;
 }
 
-.signup p a{
+.signup p a {
   color: #7c1fbf;
   text-decoration: none;
 }
 
-.navbar_2{
+.navbar_2 {
   position: relative;
   color: #7c1fbf;
   background-color: #7c1fbf;
   /* padding-bottom: -5em; */
 }
 
-
-
 /* LOGIN */
 
-.loginn{
+.loginn {
   background-color: #f2f2f2;
   margin: auto;
   max-width: 100%;
@@ -565,14 +538,14 @@ form p{
   padding-bottom: 8em;
 }
 
-.loginn h2{
+.loginn h2 {
   text-align: center;
   font-size: 35px;
   font-weight: lighter;
   padding-top: 1.5em;
 }
 
-.form_2 input{
+.form_2 input {
   margin-left: 3em;
   padding: 1.2em;
   border-radius: 5px;
@@ -581,97 +554,104 @@ form p{
   margin-bottom: 2em;
   font-weight: lighter;
 }
-.log button{
-    width: 16em;
-    padding: 10px;
-    border-radius: 2px;
-    border-style: none;
-    background-color:#7c1fbf;
-    color: white;
-    margin-left:2.5em;
-    font-size: 18px;
-    margin-top: 4em;
-  }
-
-  .log p{
-    text-align: center;
-  margin-top: 30px;
-  }
-  .log p a{
-    color: #7c1fbf;
-    text-decoration: none;
-  }
-
-  .pass{
-    display: flex;
-    justify-content: space-between;
-  }
-  .pass p {
-    margin-left: 2.9em;
-    font-size: 14px;
-  }
-
-  .remember{
-    margin-right: 4em;
-  }
-
-  
-  form select{
-    margin-left: 3.7em;
-    padding: 1.2em;
-    border-radius: 5px;
-    border-style: none;
-    width: 24.5em;
-    margin-bottom: 2em;
-    font-weight: lighter;
-  }
-
-  .label_2{
-    font-size: 18px;
-    font-weight: bolder;
-    margin-left: 3em;
-    
-  }
-
-  form option{
-    background-color:#636164 ;
-  }
-
-
-
-
-
-
-
-
-
-
-  /* MEDIA QUERY */
-
-  /* @media (min-width:768px)
-  
-  {
-
-    *{
-      padding: 0;
-      margin: 0;
-    }
-
-    /* Navbar */
-/* .trade_logo img {
-  width: 15%;
-}
-
-.navbar a {
+.log button {
+  width: 16em;
+  padding: 10px;
+  border-radius: 2px;
+  border-style: none;
+  background-color: #7c1fbf;
+  color: white;
+  margin-left: 2.5em;
   font-size: 18px;
-  padding: 8px;
-  margin-left: 0.5em;
-  position: relative;
-  right: 2em;
-
+  margin-top: 4em;
 }
 
-.start{
+.log p {
+  text-align: center;
+  margin-top: 30px;
+}
+.log p a {
+  color: #7c1fbf;
+  text-decoration: none;
+}
+
+.pass {
+  display: flex;
+  justify-content: space-between;
+}
+.pass p {
+  margin-left: 2.9em;
+  font-size: 14px;
+}
+
+.remember {
+  margin-right: 4em;
+}
+
+form select {
+  margin-left: 3.7em;
+  padding: 1.2em;
+  border-radius: 5px;
+  border-style: none;
+  width: 24.5em;
+  margin-bottom: 2em;
+  font-weight: lighter;
+}
+
+.label_2 {
+  font-size: 18px;
+  font-weight: bolder;
+  margin-left: 3em;
+}
+
+form option {
+  background-color: #636164;
+}
+
+/* MEDIA QUERY */
+
+@media (min-width: 768px) {
+  * {
+    padding: 0;
+    margin: 0;
+    max-width: 768px;
+  }
+
+  /* Navbar */
+  .trade_logo img {
+    width: 12%;
+  }
+
+  .links {
+    position: relative;
+    bottom: 2em;
+    left: 30em;
+  }
+
+  .android {
+    position: relative;
+    left: -27em;
+  }
+
+  .why h2 {
+    color: black;
+    font-size: 22px;
+    text-align: center;
+    font-weight: bolder;
+    position: relative;
+    bottom: 50px;
+    /* margin-bottom: 30px; */
+    padding-top: 5em;
+    /* padding-bottom: 5em; */
+  }
+
+  .grid {
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-gap: 10px; */
+  }
+
+  /* .start {
     background-color: white;
     color: #7c1fbf;
     border: none;
@@ -680,27 +660,21 @@ form p{
     padding: 10px 22px 10px 22px;
     font-size: 15px;
     margin-left: 30px;
-  }
-} */
+  } */
+}
 
-
-
-/* .links {
-  position: relative;
-  bottom: 3em;
-  left: 35em;
-} */
+/* */
 
 /* Home */
 
-/* .buy h1 {
+.buy h1 {
   padding-top: 30px;
   width: 400px;
   font-size: 20px;
   margin-left: 30px;
-} */
+}
 
-/* .crypto {
+.crypto {
   padding-top: 20px;
   width: 210px;
   font-size: 8px;
@@ -718,8 +692,6 @@ form p{
   margin-left: 30px;
 }
 
-
-
 /* App store */
 
 /* .store {
@@ -734,6 +706,3 @@ form p{
   position: relative;
   left: -80px;
 } */
-
-
-  
